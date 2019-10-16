@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Cell.h
 //  DAM_IOS_TableView
 //
 //  Created by Raul Ramirez on 16/10/2019.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
+@interface Cell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
-

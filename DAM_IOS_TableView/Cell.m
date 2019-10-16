@@ -1,15 +1,22 @@
 //
-//  ViewController.h
+//  Cell.m
 //  DAM_IOS_TableView
 //
 //  Created by Raul Ramirez on 16/10/2019.
 //  Copyright © 2019 Raul Ramirez. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Cell.h"
 
-@interface ViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>
-
+@interface Cell()
 
 @end
+
+@implementation Cell{
+    
+}
+
+@end
+
 
